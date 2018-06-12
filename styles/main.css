@@ -1,10 +1,13 @@
 nav.navbar{
   border-radius: 0;
 }
+/* ####################### */
+/* NAVBAR */
 .navbar-brand{
   color: #344598 !important;
   font-weight: lighter;
 }
+/* ####################### */
 
 /* ####################### */
 /* FOOTER */

@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/utiles.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/noticias_carrusel.css">
   </head>
   <body>
 <!-- ##################################################################### -->
@@ -31,32 +33,80 @@
         </div>
       </nav>
 <!-- ##################################################################### -->
+    <div class="container-fluid sin-margen">
+      <div id="noticias-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#noticias-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#noticias-carousel" data-slide-to="1"></li>
+          <li data-target="#noticias-carousel" data-slide-to="2"></li>
+        </ol>
 
-<!-- ##################################################################### -->
-<!-- FOOTER -->
-<div class="container-fluid">
-  <div class="row"><div class="col-xs-12 footer-border"></div></div>
-</div>
-<div id="footer" class="container-fluid">
-  <div class="row">
-    <div class="col-xs-12 col-sm-7 col-md-5 contacto">
-      <h3>Contacto</h3>
-      <ul>
-        <li><span>Dirección:</span> Tupungato 10070 Vitacura, Santiago de Chile</li>
-        <li><span>Teléfonos:</span> 22170821 - 22170811</li>
-        <li><span>Fax:</span> 22170820</li>
-        <li><span>Cta. Cte:</span> Banco BCI N° 85999997</li>
-        <li><span>RUT:</span> 72.169.900-5</li>
-        <li><span>Email:</span> fundacion@ninoycancer.cl</li>
-      </ul>
-    </div>
-    <div class="col-xs-12 col-sm-5 col-md-7 mapa">
-      <div class="embed-responsive">
-        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.5093060796557!2d-70.5393396850186!3d-33.38387450148409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1528761979106"></iframe>
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="row">
+              <div class="
+                col-xs-offset-2 col-xs-8">
+                <img src="images/futbol.jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="row">
+              <div class="
+                col-xs-offset-2 col-xs-8">
+                <img src="images/futbol.jpg">
+              </div>
+            </div>
+          </div>
+
+          <div class="item">
+            <div class="row">
+              <div class="
+                col-xs-offset-2 col-xs-8">
+                <img src="images/futbol.jpg">
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="left carousel-control" href="#noticias-carousel" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#noticias-carousel" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
     </div>
-  </div>
-</div>
+<!-- ##################################################################### -->
+<!-- FOOTER -->
+    <div class="container-fluid">
+      <div class="row"><div class="col-xs-12 footer-border"></div></div>
+    </div>
+    <div id="footer" class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12 col-sm-7 col-md-5 contacto">
+          <h3>Contacto</h3>
+          <ul>
+            <li><span>Dirección:</span> Tupungato 10070 Vitacura, Santiago de Chile</li>
+            <li><span>Teléfonos:</span> 22170821 - 22170811</li>
+            <li><span>Fax:</span> 22170820</li>
+            <li><span>Cta. Cte:</span> Banco BCI N° 85999997</li>
+            <li><span>RUT:</span> 72.169.900-5</li>
+            <li><span>Email:</span> fundacion@ninoycancer.cl</li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-sm-5 col-md-7 mapa">
+          <div class="embed-responsive">
+            <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3331.5093060796557!2d-70.5393396850186!3d-33.38387450148409!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662c952b6e45c13%3A0xe20a79d839401910!2sTupungato+10070%2C+Vitacura%2C+Regi%C3%B3n+Metropolitana!5e0!3m2!1ses!2scl!4v1528761979106"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
 <!-- ##################################################################### -->
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" charset="utf-8"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
