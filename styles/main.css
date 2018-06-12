@@ -1,3 +1,30 @@
 nav.navbar{
   border-radius: 0;
 }
+
+/* ####################### */
+/* FOOTER */
+#footer{
+  background-color: rgb(45, 45, 45);
+  color: rgb(190, 190, 190);
+}
+#footer ul{
+  padding-left: 0;
+}
+#footer li{
+  list-style: none;
+}
+#footer li>span{
+  font-weight: bold;
+}
+#footer .contacto{
+  margin-bottom: 15px;
+}
+#footer .mapa{
+  padding: 0;
+}
+#footer .mapa .embed-responsive{
+  width: 100%;
+  height: 35vh;
+}
+/* ####################### */
