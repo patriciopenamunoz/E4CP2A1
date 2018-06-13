@@ -6,6 +6,12 @@ nav.navbar{
 .navbar-brand{
   color: #344598 !important;
   font-weight: lighter;
+  height: 90px;
+  font-size: 25px;
+}
+.navbar .navbar-brand img{
+  display: inline;
+  margin-right: 20px;
 }
 /* ####################### */
 
