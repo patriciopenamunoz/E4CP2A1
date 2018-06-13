@@ -24,10 +24,3 @@
 #titulo .lente-oscuro{
   background-color: rgba(0, 0, 0, 0.5);
 }
-
-.noticias{
-  padding: 15px;
-}
-.noticias>div{
-  padding: 15px;
-}
