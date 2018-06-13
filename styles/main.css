@@ -28,7 +28,6 @@ nav.navbar{
 /* FOOTER */
 #footer{
   position: relative;
-  z-index: -1;
   border-top: solid 3px rgb(26, 26, 26);
   margin-top: 10px;
 }
@@ -45,11 +44,11 @@ nav.navbar{
   margin-bottom: 15px;
 }
 #footer .mapa{
-  padding: 0;
+  padding: 20px;
 }
 #footer .mapa .embed-responsive{
   width: 100%;
-  height: 35vh;
+  height: 30vh;
 }
 /* ####################### */
 
@@ -68,4 +67,26 @@ nav.navbar{
 
 .contenido.con-fondo{
   background-color: black;
+}
+
+
+/* ################################ */
+.row.display-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row.display-flex .thumbnail {
+  height: 100%;
+}
+
+.row.display-flex .thumbnail {
+  display: flex;
+  flex-direction: column;
+}
+
+.row.display-flex .thumbnail .caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
 }
