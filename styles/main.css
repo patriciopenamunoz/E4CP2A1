@@ -2,6 +2,7 @@ body{
   background-image: url('../images/leaves-pattern.png');
   margin: 0;
   padding-top: 91px;
+  color: rgb(240, 240, 240);
 }
 
 nav.navbar{
@@ -25,7 +26,6 @@ nav.navbar{
 /* ####################### */
 /* FOOTER */
 #footer{
-  margin-top: 20px;
   position: relative;
   z-index: -1;
   color: rgb(232, 232, 232);

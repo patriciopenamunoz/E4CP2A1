@@ -3,6 +3,7 @@
   padding: 15vw 10px;
   position: relative;
   color: rgb(223, 223, 223);
+  margin: 0;
 }
 
 #titulo .fondo,#titulo .lente-oscuro{
