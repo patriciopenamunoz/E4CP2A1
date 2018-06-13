@@ -1,5 +1,6 @@
 body{
-  background-image: url('../images/leaves-pattern.png');
+  background-image: url('../images/country-quilt-dark.png');
+  background-color: black;
   margin: 0;
   padding-top: 91px;
   color: rgb(240, 240, 240);
@@ -29,8 +30,8 @@ nav.navbar{
   position: relative;
   z-index: -1;
   color: rgb(232, 232, 232);
-  /* COLOR */
-  background-color: rgba(0,0,0,0.8);
+  border-top: solid 3px rgb(26, 26, 26);
+  margin-top: 10px;
 }
 #footer ul{
   padding-left: 0;
@@ -52,3 +53,20 @@ nav.navbar{
   height: 35vh;
 }
 /* ####################### */
+
+.contenido{
+  margin-top:20px;
+  margin-bottom: 20px;
+}
+.contenido .thumbnail{
+  background-color: black;
+  border-color: #232323;
+  margin: 10px;
+}
+.contenido .thumbnail .caption{
+  color: #797979;
+}
+
+.contenido.con-fondo{
+  background-color: #0d1319;
+}
