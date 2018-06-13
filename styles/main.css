@@ -3,7 +3,7 @@ body{
   background-color: black;
   margin: 0;
   padding-top: 91px;
-  color: rgb(240, 240, 240);
+  color: rgb(180, 180, 180);
 }
 
 nav.navbar{
@@ -29,7 +29,6 @@ nav.navbar{
 #footer{
   position: relative;
   z-index: -1;
-  color: rgb(232, 232, 232);
   border-top: solid 3px rgb(26, 26, 26);
   margin-top: 10px;
 }
