@@ -1,9 +1,12 @@
 body{
   background-image: url('../images/leaves-pattern.png');
+  margin: 0;
+  padding-top: 91px;
 }
 
 nav.navbar{
   border-radius: 0;
+  margin: 0;
 }
 /* ####################### */
 /* NAVBAR */

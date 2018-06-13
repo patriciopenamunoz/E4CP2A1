@@ -1,0 +1,25 @@
+#titulo{
+  background: transparent;
+  padding: 15vw 10px;
+  position: relative;
+  color: rgb(223, 223, 223);
+}
+
+#titulo .fondo,#titulo .lente-oscuro{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+#titulo .fondo{
+  background-image: url('../images/caras/1.jpg');
+  background-size: cover;
+  background-position: center;
+  filter: grayscale(50%);
+}
+
+#titulo .lente-oscuro{
+  background-color: rgba(0, 0, 0, 0.5);
+}

@@ -1,3 +1,6 @@
+.texto-centrado{
+  text-align: center;
+}
 .container-fluid.sin-margen{
   padding: 0;
 }
