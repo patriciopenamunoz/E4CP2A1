@@ -1,1 +1,4 @@
-
+#noticias-carousel .carousel-control{
+  background: transparent;
+  color: black;
+}
