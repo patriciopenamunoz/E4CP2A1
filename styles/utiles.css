@@ -1,6 +1,13 @@
 .texto-centrado{
   text-align: center;
 }
+.img-responsive.centrado{
+  margin: 0 auto;
+}
 .container-fluid.sin-margen{
   padding: 0;
+}
+.con-margen{
+  box-sizing: border-box;
+  padding: 20px;
 }
