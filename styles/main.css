@@ -88,3 +88,10 @@ nav.navbar{
   justify-content: space-between;
   height: 100%;
 }
+
+
+.icono-media{
+  display: inline-block;
+  height: 40px;
+  margin-right: 5px;
+}
