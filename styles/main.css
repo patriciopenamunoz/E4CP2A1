@@ -3,6 +3,20 @@ body{
   padding-top: 91px;
 }
 
+.titulo-estilizado{
+  padding: 10px;
+  border-radius:  10px;
+  box-shadow: 1px 1px 4px 2px #00000085;
+}
+.titulo-estilizado.purpura{
+  background-color: #344598;
+  color: #d1d5e8;
+}
+.titulo-estilizado.amarillo{
+  background-color: #f17100;
+  color: #ffe8d3;
+}
+
 nav.navbar{
   border-radius: 0;
   margin: 0;
